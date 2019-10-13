@@ -1,0 +1,7 @@
+.file-preview-thumbnails .krajee-default .kv-file-content .file-drag-handle{
+    width: auto;
+    height: auto;
+    float: none;
+    max-width: 90%;
+    max-height: 100%;
+}

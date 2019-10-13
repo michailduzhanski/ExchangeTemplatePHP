@@ -1,0 +1,2989 @@
+2018-08-04 08:31:52 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][b03979e74e7757b761fc2f7b12703688][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap.min.css.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-04 08:31:52 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][b03979e74e7757b761fc2f7b12703688][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'b03979e74e7757b761fc2f7b12703688'
+    '_csrf' => '582a1360245a585f1dbf4d3bedc275fd3207acd9cebe2b3286a1db55017b6de3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2JSrbSNEkOdLvxyx4wt9ShJ7ubnHL3yQ\";}'
+    '_identity-frontend' => '34ffcd431dc57adac7e949043ae81de4c385d1c64a69b357975a776743b36674a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"80cdee1404f98d5751e3fae5f005d2bc\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2VIWH8AAQEAABFF7F8AAAAD'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2VIWH8AAQEAABFF7F8AAAAD'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=b03979e74e7757b761fc2f7b12703688; _csrf=582a1360245a585f1dbf4d3bedc275fd3207acd9cebe2b3286a1db55017b6de3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222JSrbSNEkOdLvxyx4wt9ShJ7ubnHL3yQ%22%3B%7D; _identity-frontend=34ffcd431dc57adac7e949043ae81de4c385d1c64a69b357975a776743b36674a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%2280cdee1404f98d5751e3fae5f005d2bc%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '42564'
+    'REDIRECT_URL' => '/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533364312.24
+    'REQUEST_TIME' => 1533364312
+]
+2018-08-04 08:31:52 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][b03979e74e7757b761fc2f7b12703688][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/popper.min.js.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/popper.min.j...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-04 08:31:52 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][b03979e74e7757b761fc2f7b12703688][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'b03979e74e7757b761fc2f7b12703688'
+    '_csrf' => '582a1360245a585f1dbf4d3bedc275fd3207acd9cebe2b3286a1db55017b6de3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2JSrbSNEkOdLvxyx4wt9ShJ7ubnHL3yQ\";}'
+    '_identity-frontend' => '34ffcd431dc57adac7e949043ae81de4c385d1c64a69b357975a776743b36674a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"80cdee1404f98d5751e3fae5f005d2bc\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2VIWH8AAQEAAGivFNsAAAAE'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2VIWH8AAQEAAGivFNsAAAAE'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=b03979e74e7757b761fc2f7b12703688; _csrf=582a1360245a585f1dbf4d3bedc275fd3207acd9cebe2b3286a1db55017b6de3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222JSrbSNEkOdLvxyx4wt9ShJ7ubnHL3yQ%22%3B%7D; _identity-frontend=34ffcd431dc57adac7e949043ae81de4c385d1c64a69b357975a776743b36674a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%2280cdee1404f98d5751e3fae5f005d2bc%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '42584'
+    'REDIRECT_URL' => '/js/popper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/popper.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533364312.415
+    'REQUEST_TIME' => 1533364312
+]
+2018-08-04 08:33:49 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][b03979e74e7757b761fc2f7b12703688][error][yii\web\HttpException:404] yii\web\NotFoundHttpException in /home/rh/WebServer/invensio.local/common/modules/imageStorage/controllers/DefaultController.php:69
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/common/modules/imageStorage/controllers/DefaultController.php(35): common\modules\imageStorage\controllers\DefaultController->openImage('/home/rh/WebSer...')
+#1 [internal function]: common\modules\imageStorage\controllers\DefaultController->actionOpenImageCache('7052a1e5-8d00-4...')
+#2 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('open-image-cach...', Array)
+#5 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('image-storage/d...', Array)
+#6 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#7 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2018-08-04 08:33:49 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][b03979e74e7757b761fc2f7b12703688][info][application] $_GET = [
+    'path' => '7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/_preview.null'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'b03979e74e7757b761fc2f7b12703688'
+    '_csrf' => '582a1360245a585f1dbf4d3bedc275fd3207acd9cebe2b3286a1db55017b6de3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2JSrbSNEkOdLvxyx4wt9ShJ7ubnHL3yQ\";}'
+    '_identity-frontend' => '34ffcd431dc57adac7e949043ae81de4c385d1c64a69b357975a776743b36674a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"80cdee1404f98d5751e3fae5f005d2bc\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2VIzX8AAQEAAGId39EAAAAK'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2VIzX8AAQEAAGId39EAAAAK'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://invensio.local/en/profile'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=b03979e74e7757b761fc2f7b12703688; _csrf=582a1360245a585f1dbf4d3bedc275fd3207acd9cebe2b3286a1db55017b6de3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222JSrbSNEkOdLvxyx4wt9ShJ7ubnHL3yQ%22%3B%7D; _identity-frontend=34ffcd431dc57adac7e949043ae81de4c385d1c64a69b357975a776743b36674a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%2280cdee1404f98d5751e3fae5f005d2bc%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '44778'
+    'REDIRECT_URL' => '/cache/objects/7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/_preview.null'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'HEAD'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cache/objects/7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/_preview.null'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533364429.548
+    'REQUEST_TIME' => 1533364429
+]
+2018-08-06 10:11:59 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][error][yii\web\HttpException:404] yii\web\NotFoundHttpException in /home/rh/WebServer/invensio.local/common/modules/imageStorage/controllers/DefaultController.php:69
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/common/modules/imageStorage/controllers/DefaultController.php(35): common\modules\imageStorage\controllers\DefaultController->openImage('/home/rh/WebSer...')
+#1 [internal function]: common\modules\imageStorage\controllers\DefaultController->actionOpenImageCache('7052a1e5-8d00-4...')
+#2 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('open-image-cach...', Array)
+#5 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('image-storage/d...', Array)
+#6 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#7 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2018-08-06 10:11:58 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][info][application] $_GET = [
+    'path' => '7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/_preview.null'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    '__lfcc' => '1'
+    'advanced-frontend' => '2363b7470020b1978c22ae7ad0ea8289'
+    '_csrf' => 'e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ\";}'
+    '_identity-frontend' => '13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"2bf28212a1ae510a91768ad359019fb6\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2gCzn8AAQEAACAbGXcAAAAL'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2gCzn8AAQEAACAbGXcAAAAL'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://invensio.local/en/profile'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; __lfcc=1; advanced-frontend=2363b7470020b1978c22ae7ad0ea8289; _csrf=e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ%22%3B%7D; _identity-frontend=13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%222bf28212a1ae510a91768ad359019fb6%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '56474'
+    'REDIRECT_URL' => '/cache/objects/7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/_preview.null'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'HEAD'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cache/objects/7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/_preview.null'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533543118.84
+    'REQUEST_TIME' => 1533543118
+]
+2018-08-06 14:07:43 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "prodile/default/text". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('prodile/default...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-06 14:07:43 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    '__lfcc' => '1'
+    'advanced-frontend' => '2363b7470020b1978c22ae7ad0ea8289'
+    '_csrf' => 'e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ\";}'
+    '_identity-frontend' => '13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"2bf28212a1ae510a91768ad359019fb6\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2g6D38AAQEAACAHHRQAAAAH'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2g6D38AAQEAACAHHRQAAAAH'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; __lfcc=1; advanced-frontend=2363b7470020b1978c22ae7ad0ea8289; _csrf=e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ%22%3B%7D; _identity-frontend=13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%222bf28212a1ae510a91768ad359019fb6%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '43512'
+    'REDIRECT_URL' => '/prodile/default/text'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/prodile/default/text'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533557263.471
+    'REQUEST_TIME' => 1533557263
+]
+2018-08-06 14:13:47 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][error][Error] Error: Class 'common\modules\drole\models\TestTextModel' not found in /home/rh/WebServer/invensio.local/frontend/modules/profile/controllers/DefaultController.php:93
+Stack trace:
+#0 [internal function]: frontend\modules\profile\controllers\DefaultController->actionTestText()
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('test-text', Array)
+#4 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('profile/default...', Array)
+#5 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#6 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2018-08-06 14:13:47 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__lfcc' => '1'
+    'advanced-frontend' => '2363b7470020b1978c22ae7ad0ea8289'
+    '_csrf' => 'e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ\";}'
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    '_identity-frontend' => '13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"2bf28212a1ae510a91768ad359019fb6\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2g7e38AAQEAAAwSHxIAAAAB'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2g7e38AAQEAAAwSHxIAAAAB'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '__lfcc=1; advanced-frontend=2363b7470020b1978c22ae7ad0ea8289; _csrf=e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ%22%3B%7D; language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; _identity-frontend=13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%222bf28212a1ae510a91768ad359019fb6%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '47574'
+    'REDIRECT_URL' => '/en/profile/default/test-text'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/en/profile/default/test-text'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533557627.282
+    'REQUEST_TIME' => 1533557627
+]
+2018-08-06 14:14:12 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][error][Error] Error: Class 'common\modules\drole\models\TestTextModel' not found in /home/rh/WebServer/invensio.local/frontend/modules/profile/controllers/DefaultController.php:93
+Stack trace:
+#0 [internal function]: frontend\modules\profile\controllers\DefaultController->actionTestText()
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('test-text', Array)
+#4 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('profile/default...', Array)
+#5 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#6 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2018-08-06 14:14:12 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__lfcc' => '1'
+    'advanced-frontend' => '2363b7470020b1978c22ae7ad0ea8289'
+    '_csrf' => 'e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ\";}'
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    '_identity-frontend' => '13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"2bf28212a1ae510a91768ad359019fb6\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2g7lH8AAQEAAArS1cUAAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2g7lH8AAQEAAArS1cUAAAAI'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '__lfcc=1; advanced-frontend=2363b7470020b1978c22ae7ad0ea8289; _csrf=e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ%22%3B%7D; language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; _identity-frontend=13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%222bf28212a1ae510a91768ad359019fb6%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '47860'
+    'REDIRECT_URL' => '/en/profile/default/test-text'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/en/profile/default/test-text'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533557652.456
+    'REQUEST_TIME' => 1533557652
+]
+2018-08-06 14:14:13 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][error][Error] Error: Class 'common\modules\drole\models\TestTextModel' not found in /home/rh/WebServer/invensio.local/frontend/modules/profile/controllers/DefaultController.php:93
+Stack trace:
+#0 [internal function]: frontend\modules\profile\controllers\DefaultController->actionTestText()
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('test-text', Array)
+#4 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('profile/default...', Array)
+#5 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#6 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2018-08-06 14:14:13 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__lfcc' => '1'
+    'advanced-frontend' => '2363b7470020b1978c22ae7ad0ea8289'
+    '_csrf' => 'e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ\";}'
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    '_identity-frontend' => '13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"2bf28212a1ae510a91768ad359019fb6\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2g7lX8AAQEAAGqkM50AAAAG'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2g7lX8AAQEAAGqkM50AAAAG'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '__lfcc=1; advanced-frontend=2363b7470020b1978c22ae7ad0ea8289; _csrf=e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ%22%3B%7D; language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; _identity-frontend=13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%222bf28212a1ae510a91768ad359019fb6%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '47866'
+    'REDIRECT_URL' => '/en/profile/default/test-text'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/en/profile/default/test-text'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533557653.632
+    'REQUEST_TIME' => 1533557653
+]
+2018-08-06 14:14:29 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][error][Error] Error: Class 'common\modules\drole\models\TestTextModel' not found in /home/rh/WebServer/invensio.local/frontend/modules/profile/controllers/DefaultController.php:93
+Stack trace:
+#0 [internal function]: frontend\modules\profile\controllers\DefaultController->actionTestText()
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('test-text', Array)
+#4 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('profile/default...', Array)
+#5 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#6 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2018-08-06 14:14:29 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__lfcc' => '1'
+    'advanced-frontend' => '2363b7470020b1978c22ae7ad0ea8289'
+    '_csrf' => 'e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ\";}'
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    '_identity-frontend' => '13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"2bf28212a1ae510a91768ad359019fb6\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2g7pX8AAQEAACjCqU0AAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2g7pX8AAQEAACjCqU0AAAAA'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '__lfcc=1; advanced-frontend=2363b7470020b1978c22ae7ad0ea8289; _csrf=e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ%22%3B%7D; language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; _identity-frontend=13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%222bf28212a1ae510a91768ad359019fb6%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '48082'
+    'REDIRECT_URL' => '/en/profile/default/test-text'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/en/profile/default/test-text'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533557669.661
+    'REQUEST_TIME' => 1533557669
+]
+2018-08-06 14:16:56 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/popper.min.js.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/popper.min.j...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-06 14:16:56 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__lfcc' => '1'
+    'advanced-frontend' => '2363b7470020b1978c22ae7ad0ea8289'
+    '_csrf' => 'e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ\";}'
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    '_identity-frontend' => '13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"2bf28212a1ae510a91768ad359019fb6\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2g8OH8AAQEAAHuPA6UAAAAK'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2g8OH8AAQEAAHuPA6UAAAAK'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '__lfcc=1; advanced-frontend=2363b7470020b1978c22ae7ad0ea8289; _csrf=e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ%22%3B%7D; language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; _identity-frontend=13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%222bf28212a1ae510a91768ad359019fb6%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '49778'
+    'REDIRECT_URL' => '/js/popper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/popper.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533557816.056
+    'REQUEST_TIME' => 1533557816
+]
+2018-08-06 14:16:56 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap.min.css.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-06 14:16:56 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__lfcc' => '1'
+    'advanced-frontend' => '2363b7470020b1978c22ae7ad0ea8289'
+    '_csrf' => 'e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ\";}'
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    '_identity-frontend' => '13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"2bf28212a1ae510a91768ad359019fb6\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2g8OH8AAQEAAAwSHxsAAAAB'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2g8OH8AAQEAAAwSHxsAAAAB'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '__lfcc=1; advanced-frontend=2363b7470020b1978c22ae7ad0ea8289; _csrf=e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ%22%3B%7D; language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; _identity-frontend=13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%222bf28212a1ae510a91768ad359019fb6%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '49776'
+    'REDIRECT_URL' => '/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533557816.199
+    'REQUEST_TIME' => 1533557816
+]
+2018-08-06 15:23:01 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/render-text-field in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('render-text-fie...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/render-tex...', Array)
+#2 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#3 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-06 15:23:01 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__lfcc' => '1'
+    'advanced-frontend' => '2363b7470020b1978c22ae7ad0ea8289'
+    '_csrf' => 'e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ\";}'
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    '_identity-frontend' => '13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"2bf28212a1ae510a91768ad359019fb6\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2hLtX8AAQEAAEep@b4AAAAF'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2hLtX8AAQEAAEep@b4AAAAF'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '__lfcc=1; advanced-frontend=2363b7470020b1978c22ae7ad0ea8289; _csrf=e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ%22%3B%7D; language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; _identity-frontend=13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%222bf28212a1ae510a91768ad359019fb6%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '33766'
+    'REDIRECT_URL' => '/site/render-text-field'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/render-text-field'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533561781.612
+    'REQUEST_TIME' => 1533561781
+]
+2018-08-06 15:23:17 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/render-text-field in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('render-text-fie...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/render-tex...', Array)
+#2 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#3 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-06 15:23:17 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__lfcc' => '1'
+    'advanced-frontend' => '2363b7470020b1978c22ae7ad0ea8289'
+    '_csrf' => 'e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ\";}'
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    '_identity-frontend' => '13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"2bf28212a1ae510a91768ad359019fb6\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2hLxX8AAQEAAEns7bgAAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2hLxX8AAQEAAEns7bgAAAAA'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '__lfcc=1; advanced-frontend=2363b7470020b1978c22ae7ad0ea8289; _csrf=e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ%22%3B%7D; language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; _identity-frontend=13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%222bf28212a1ae510a91768ad359019fb6%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '34086'
+    'REDIRECT_URL' => '/site/render-text-field'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/render-text-field'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533561797.1
+    'REQUEST_TIME' => 1533561797
+]
+2018-08-06 16:06:53 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "textfield/default/ajax-field". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('textfield/defau...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-06 16:06:50 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__lfcc' => '1'
+    'advanced-frontend' => '2363b7470020b1978c22ae7ad0ea8289'
+    '_csrf' => 'e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ\";}'
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    '_identity-frontend' => '13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"2bf28212a1ae510a91768ad359019fb6\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2hV@n8AAQEAAEy39YkAAAAC'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2hV@n8AAQEAAEy39YkAAAAC'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '__lfcc=1; advanced-frontend=2363b7470020b1978c22ae7ad0ea8289; _csrf=e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ%22%3B%7D; language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; _identity-frontend=13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%222bf28212a1ae510a91768ad359019fb6%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '54088'
+    'REDIRECT_URL' => '/en/textfield/default/ajax-field'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/en/textfield/default/ajax-field'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533564410.239
+    'REQUEST_TIME' => 1533564410
+]
+2018-08-06 16:08:57 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "textfield/default/ajax-field". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('textfield/defau...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-06 16:08:57 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__lfcc' => '1'
+    'advanced-frontend' => '2363b7470020b1978c22ae7ad0ea8289'
+    '_csrf' => 'e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ\";}'
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    '_identity-frontend' => '13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"2bf28212a1ae510a91768ad359019fb6\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2hWeX8AAQEAAEep@cAAAAAF'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2hWeX8AAQEAAEep@cAAAAAF'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '__lfcc=1; advanced-frontend=2363b7470020b1978c22ae7ad0ea8289; _csrf=e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ%22%3B%7D; language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; _identity-frontend=13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%222bf28212a1ae510a91768ad359019fb6%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '56438'
+    'REDIRECT_URL' => '/en/textfield/default/ajax-field'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/en/textfield/default/ajax-field'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533564537.252
+    'REQUEST_TIME' => 1533564537
+]
+2018-08-06 16:11:34 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "textfield/default/index". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('textfield/defau...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-06 16:11:34 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2363b7470020b1978c22ae7ad0ea8289][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__lfcc' => '1'
+    'advanced-frontend' => '2363b7470020b1978c22ae7ad0ea8289'
+    '_csrf' => 'e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ\";}'
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    '_identity-frontend' => '13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"2bf28212a1ae510a91768ad359019fb6\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2hXFn8AAQEAAEns7boAAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2hXFn8AAQEAAEns7boAAAAA'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '__lfcc=1; advanced-frontend=2363b7470020b1978c22ae7ad0ea8289; _csrf=e93360b6265e7ac63e444db6d8544d90c448f2c876f8ed92091f1ef1acc71b75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FFu3TbXJi1LpkTJ1M_Od1BYpvpUUgtsQ%22%3B%7D; language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; _identity-frontend=13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%222bf28212a1ae510a91768ad359019fb6%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '59526'
+    'REDIRECT_URL' => '/en/textfield/default/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/en/textfield/default/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533564694.357
+    'REQUEST_TIME' => 1533564694
+]
+2018-08-07 15:52:31 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][38b8092d4bb18e1294949029d06098ab][error][yii\web\HttpException:404] yii\web\NotFoundHttpException in /home/rh/WebServer/invensio.local/common/modules/imageStorage/controllers/DefaultController.php:69
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/common/modules/imageStorage/controllers/DefaultController.php(35): common\modules\imageStorage\controllers\DefaultController->openImage('/home/rh/WebSer...')
+#1 [internal function]: common\modules\imageStorage\controllers\DefaultController->actionOpenImageCache('7052a1e5-8d00-4...')
+#2 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('open-image-cach...', Array)
+#5 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('image-storage/d...', Array)
+#6 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#7 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2018-08-07 15:52:31 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][38b8092d4bb18e1294949029d06098ab][info][application] $_GET = [
+    'path' => '7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/_preview.null'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => '38b8092d4bb18e1294949029d06098ab'
+    '_csrf' => 'c20dc2414e5b596f748cbf797083a58dc1356016002b785cc08c5fded3db37bea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5AayUV54uWUQqemRSEvTfE0aaR8UnxBi\";}'
+    '_identity-frontend' => '13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"2bf28212a1ae510a91768ad359019fb6\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2mkH38AAQEAADrkkykAAAAD'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2mkH38AAQEAADrkkykAAAAD'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://invensio.local/en/profile'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=38b8092d4bb18e1294949029d06098ab; _csrf=c20dc2414e5b596f748cbf797083a58dc1356016002b785cc08c5fded3db37bea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225AayUV54uWUQqemRSEvTfE0aaR8UnxBi%22%3B%7D; _identity-frontend=13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%222bf28212a1ae510a91768ad359019fb6%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '41128'
+    'REDIRECT_URL' => '/cache/objects/7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/_preview.null'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'HEAD'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cache/objects/7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/_preview.null'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533649951.258
+    'REQUEST_TIME' => 1533649951
+]
+2018-08-07 18:05:30 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][38b8092d4bb18e1294949029d06098ab][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/popper.min.js.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/popper.min.j...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 18:05:30 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][38b8092d4bb18e1294949029d06098ab][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => '38b8092d4bb18e1294949029d06098ab'
+    '_csrf' => 'c20dc2414e5b596f748cbf797083a58dc1356016002b785cc08c5fded3db37bea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5AayUV54uWUQqemRSEvTfE0aaR8UnxBi\";}'
+    '_identity-frontend' => '13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"2bf28212a1ae510a91768ad359019fb6\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nDSn8AAQEAAG1RmXUAAAAK'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nDSn8AAQEAAG1RmXUAAAAK'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=38b8092d4bb18e1294949029d06098ab; _csrf=c20dc2414e5b596f748cbf797083a58dc1356016002b785cc08c5fded3db37bea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225AayUV54uWUQqemRSEvTfE0aaR8UnxBi%22%3B%7D; _identity-frontend=13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%222bf28212a1ae510a91768ad359019fb6%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '47202'
+    'REDIRECT_URL' => '/js/popper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/popper.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533657930.15
+    'REQUEST_TIME' => 1533657930
+]
+2018-08-07 18:05:30 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][38b8092d4bb18e1294949029d06098ab][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap.min.css.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 18:05:30 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][38b8092d4bb18e1294949029d06098ab][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => '38b8092d4bb18e1294949029d06098ab'
+    '_csrf' => 'c20dc2414e5b596f748cbf797083a58dc1356016002b785cc08c5fded3db37bea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5AayUV54uWUQqemRSEvTfE0aaR8UnxBi\";}'
+    '_identity-frontend' => '13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"2bf28212a1ae510a91768ad359019fb6\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nDSn8AAQEAAG0QPasAAAAE'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nDSn8AAQEAAG0QPasAAAAE'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=38b8092d4bb18e1294949029d06098ab; _csrf=c20dc2414e5b596f748cbf797083a58dc1356016002b785cc08c5fded3db37bea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225AayUV54uWUQqemRSEvTfE0aaR8UnxBi%22%3B%7D; _identity-frontend=13f4967cb812a585551b45d6c27bc53306526c3f87ee53c8f735e6cf8fe3cff4a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%222bf28212a1ae510a91768ad359019fb6%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '47204'
+    'REDIRECT_URL' => '/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533657930.233
+    'REQUEST_TIME' => 1533657930
+]
+2018-08-07 18:05:37 [127.0.0.1][-][fdee056e05a10fb3d89a6c9e371abdec][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "index/css/bootstrap.min.css.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('index/css/boots...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 18:05:37 [127.0.0.1][-][fdee056e05a10fb3d89a6c9e371abdec][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'c20dc2414e5b596f748cbf797083a58dc1356016002b785cc08c5fded3db37bea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5AayUV54uWUQqemRSEvTfE0aaR8UnxBi\";}'
+    'advanced-frontend' => 'fdee056e05a10fb3d89a6c9e371abdec'
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nDUX8AAQEAADxxxfYAAAAF'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nDUX8AAQEAADxxxfYAAAAF'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=c20dc2414e5b596f748cbf797083a58dc1356016002b785cc08c5fded3db37bea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225AayUV54uWUQqemRSEvTfE0aaR8UnxBi%22%3B%7D; advanced-frontend=fdee056e05a10fb3d89a6c9e371abdec; language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '47382'
+    'REDIRECT_URL' => '/index/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533657937.032
+    'REQUEST_TIME' => 1533657937
+]
+2018-08-07 18:05:38 [127.0.0.1][-][fdee056e05a10fb3d89a6c9e371abdec][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "index/css/bootstrap.min.css.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('index/css/boots...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 18:05:38 [127.0.0.1][-][fdee056e05a10fb3d89a6c9e371abdec][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'c20dc2414e5b596f748cbf797083a58dc1356016002b785cc08c5fded3db37bea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"5AayUV54uWUQqemRSEvTfE0aaR8UnxBi\";}'
+    'advanced-frontend' => 'fdee056e05a10fb3d89a6c9e371abdec'
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nDUn8AAQEAAG3ecdIAAAAD'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nDUn8AAQEAAG3ecdIAAAAD'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=c20dc2414e5b596f748cbf797083a58dc1356016002b785cc08c5fded3db37bea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225AayUV54uWUQqemRSEvTfE0aaR8UnxBi%22%3B%7D; advanced-frontend=fdee056e05a10fb3d89a6c9e371abdec; language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '47384'
+    'REDIRECT_URL' => '/index/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533657938.772
+    'REQUEST_TIME' => 1533657938
+]
+2018-08-07 18:05:55 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][bd7476dfaa52182bce7ae424903038fc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap.min.css.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 18:05:55 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][bd7476dfaa52182bce7ae424903038fc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'bd7476dfaa52182bce7ae424903038fc'
+    '_csrf' => 'fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ\";}'
+    '_identity-frontend' => '03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"fdee056e05a10fb3d89a6c9e371abdec\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nDY38AAQEAAG1RmX4AAAAK'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nDY38AAQEAAG1RmX4AAAAK'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=bd7476dfaa52182bce7ae424903038fc; _csrf=fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ%22%3B%7D; _identity-frontend=03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%22fdee056e05a10fb3d89a6c9e371abdec%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '47636'
+    'REDIRECT_URL' => '/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533657955.464
+    'REQUEST_TIME' => 1533657955
+]
+2018-08-07 18:05:55 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][bd7476dfaa52182bce7ae424903038fc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/popper.min.js.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/popper.min.j...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 18:05:55 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][bd7476dfaa52182bce7ae424903038fc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'bd7476dfaa52182bce7ae424903038fc'
+    '_csrf' => 'fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ\";}'
+    '_identity-frontend' => '03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"fdee056e05a10fb3d89a6c9e371abdec\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nDY38AAQEAAG2SAaIAAAAC'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nDY38AAQEAAG2SAaIAAAAC'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=bd7476dfaa52182bce7ae424903038fc; _csrf=fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ%22%3B%7D; _identity-frontend=03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%22fdee056e05a10fb3d89a6c9e371abdec%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '47642'
+    'REDIRECT_URL' => '/js/popper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/popper.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533657955.691
+    'REQUEST_TIME' => 1533657955
+]
+2018-08-07 18:07:33 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][bd7476dfaa52182bce7ae424903038fc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/popper.min.js.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/popper.min.j...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 18:07:33 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][bd7476dfaa52182bce7ae424903038fc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'bd7476dfaa52182bce7ae424903038fc'
+    '_csrf' => 'fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ\";}'
+    '_identity-frontend' => '03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"fdee056e05a10fb3d89a6c9e371abdec\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nDxX8AAQEAAHByguMAAAAH'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nDxX8AAQEAAHByguMAAAAH'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=bd7476dfaa52182bce7ae424903038fc; _csrf=fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ%22%3B%7D; _identity-frontend=03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%22fdee056e05a10fb3d89a6c9e371abdec%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '47746'
+    'REDIRECT_URL' => '/js/popper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/popper.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533658053.097
+    'REQUEST_TIME' => 1533658053
+]
+2018-08-07 18:07:33 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][bd7476dfaa52182bce7ae424903038fc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap.min.css.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 18:07:33 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][bd7476dfaa52182bce7ae424903038fc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'bd7476dfaa52182bce7ae424903038fc'
+    '_csrf' => 'fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ\";}'
+    '_identity-frontend' => '03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"fdee056e05a10fb3d89a6c9e371abdec\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nDxX8AAQEAAG5GYpkAAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nDxX8AAQEAAG5GYpkAAAAI'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=bd7476dfaa52182bce7ae424903038fc; _csrf=fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ%22%3B%7D; _identity-frontend=03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%22fdee056e05a10fb3d89a6c9e371abdec%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '47752'
+    'REDIRECT_URL' => '/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533658053.195
+    'REQUEST_TIME' => 1533658053
+]
+2018-08-07 18:07:47 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][bd7476dfaa52182bce7ae424903038fc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap.min.css.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 18:07:47 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][bd7476dfaa52182bce7ae424903038fc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'bd7476dfaa52182bce7ae424903038fc'
+    '_csrf' => 'fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ\";}'
+    '_identity-frontend' => '03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"fdee056e05a10fb3d89a6c9e371abdec\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nD038AAQEAADxxxh8AAAAF'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nD038AAQEAADxxxh8AAAAF'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=bd7476dfaa52182bce7ae424903038fc; _csrf=fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ%22%3B%7D; _identity-frontend=03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%22fdee056e05a10fb3d89a6c9e371abdec%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '47884'
+    'REDIRECT_URL' => '/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533658067.42
+    'REQUEST_TIME' => 1533658067
+]
+2018-08-07 18:07:47 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][bd7476dfaa52182bce7ae424903038fc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/popper.min.js.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/popper.min.j...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 18:07:47 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][bd7476dfaa52182bce7ae424903038fc][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'bd7476dfaa52182bce7ae424903038fc'
+    '_csrf' => 'fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ\";}'
+    '_identity-frontend' => '03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"fdee056e05a10fb3d89a6c9e371abdec\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nD038AAQEAADxxxiAAAAAF'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nD038AAQEAADxxxiAAAAAF'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=bd7476dfaa52182bce7ae424903038fc; _csrf=fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ%22%3B%7D; _identity-frontend=03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%22fdee056e05a10fb3d89a6c9e371abdec%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '47884'
+    'REDIRECT_URL' => '/js/popper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/popper.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533658067.621
+    'REQUEST_TIME' => 1533658067
+]
+2018-08-07 18:07:48 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][bd7476dfaa52182bce7ae424903038fc][error][yii\web\HttpException:404] yii\web\NotFoundHttpException in /home/rh/WebServer/invensio.local/common/modules/imageStorage/controllers/DefaultController.php:69
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/common/modules/imageStorage/controllers/DefaultController.php(35): common\modules\imageStorage\controllers\DefaultController->openImage('/home/rh/WebSer...')
+#1 [internal function]: common\modules\imageStorage\controllers\DefaultController->actionOpenImageCache('7052a1e5-8d00-4...')
+#2 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('open-image-cach...', Array)
+#5 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('image-storage/d...', Array)
+#6 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#7 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2018-08-07 18:07:48 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][bd7476dfaa52182bce7ae424903038fc][info][application] $_GET = [
+    'path' => '7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/5a57a4fe-dc85-46bf-b765-e3825f710b1d_preview.jpg'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'bd7476dfaa52182bce7ae424903038fc'
+    '_csrf' => 'fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ\";}'
+    '_identity-frontend' => '03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"fdee056e05a10fb3d89a6c9e371abdec\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nD1H8AAQEAADxxxiIAAAAF'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nD1H8AAQEAADxxxiIAAAAF'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://invensio.local/en/profile'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=bd7476dfaa52182bce7ae424903038fc; _csrf=fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ%22%3B%7D; _identity-frontend=03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%22fdee056e05a10fb3d89a6c9e371abdec%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '47884'
+    'REDIRECT_URL' => '/cache/objects/7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/5a57a4fe-dc85-46bf-b765-e3825f710b1d_preview.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'HEAD'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cache/objects/7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/5a57a4fe-dc85-46bf-b765-e3825f710b1d_preview.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533658068.314
+    'REQUEST_TIME' => 1533658068
+]
+2018-08-07 19:07:12 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][d79d2021b9bb99e0741b78cd575faf93][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap.min.css.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 19:07:12 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][d79d2021b9bb99e0741b78cd575faf93][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => 'bd7476dfaa52182bce7ae424903038fc'
+    '_csrf' => 'fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ\";}'
+    '_identity-frontend' => '03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"fdee056e05a10fb3d89a6c9e371abdec\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nRwH8AAQEAAG5GYp0AAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nRwH8AAQEAAG5GYp0AAAAI'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=bd7476dfaa52182bce7ae424903038fc; _csrf=fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ%22%3B%7D; _identity-frontend=03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%22fdee056e05a10fb3d89a6c9e371abdec%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '48734'
+    'REDIRECT_URL' => '/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533661632.417
+    'REQUEST_TIME' => 1533661632
+]
+2018-08-07 19:07:12 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][c47a3230d7f922cb4060268f83eb6e5e][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/popper.min.js.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/popper.min.j...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 19:07:12 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][c47a3230d7f922cb4060268f83eb6e5e][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    '_csrf' => 'fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ\";}'
+    'advanced-frontend' => 'c47a3230d7f922cb4060268f83eb6e5e'
+    '_identity-frontend' => '03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"fdee056e05a10fb3d89a6c9e371abdec\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nRwH8AAQEAAHByguoAAAAH'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nRwH8AAQEAAHByguoAAAAH'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; _csrf=fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ%22%3B%7D; advanced-frontend=c47a3230d7f922cb4060268f83eb6e5e; _identity-frontend=03c8fe53fe9156b361f1ed58cb8e2deebdc609898f5f1f29cfbd0f23a4839157a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%22fdee056e05a10fb3d89a6c9e371abdec%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '48732'
+    'REDIRECT_URL' => '/js/popper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/popper.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533661632.594
+    'REQUEST_TIME' => 1533661632
+]
+2018-08-07 19:07:20 [127.0.0.1][-][52828bd4470015ecc9eac66630f47a9b][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "index/css/bootstrap.min.css.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('index/css/boots...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 19:07:20 [127.0.0.1][-][52828bd4470015ecc9eac66630f47a9b][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ\";}'
+    'advanced-frontend' => '52828bd4470015ecc9eac66630f47a9b'
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nRyH8AAQEAAHS3N5AAAAAJ'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nRyH8AAQEAAHS3N5AAAAAJ'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ%22%3B%7D; advanced-frontend=52828bd4470015ecc9eac66630f47a9b; language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '48906'
+    'REDIRECT_URL' => '/index/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533661640.817
+    'REQUEST_TIME' => 1533661640
+]
+2018-08-07 19:07:22 [127.0.0.1][-][52828bd4470015ecc9eac66630f47a9b][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "index/css/bootstrap.min.css.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('index/css/boots...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 19:07:22 [127.0.0.1][-][52828bd4470015ecc9eac66630f47a9b][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ\";}'
+    'advanced-frontend' => '52828bd4470015ecc9eac66630f47a9b'
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nRyn8AAQEAAG3ecfQAAAAD'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nRyn8AAQEAAG3ecfQAAAAD'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=fd578c6d91fa08f55f9c6cdad1df0eae1c8bd89ad0f85b6aa7d47347f540e6eba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22yXm5osZZw3ROS2jSYfwuSvxuFpx0FQQJ%22%3B%7D; advanced-frontend=52828bd4470015ecc9eac66630f47a9b; language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '48874'
+    'REDIRECT_URL' => '/index/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533661642.715
+    'REQUEST_TIME' => 1533661642
+]
+2018-08-07 19:07:43 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap.min.css.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 19:07:43 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => '2c653f90d31b70132d30421f7befcd32'
+    '_csrf' => '521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH\";}'
+    '_identity-frontend' => '5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"52828bd4470015ecc9eac66630f47a9b\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nR338AAQEAAG2SAbQAAAAC'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nR338AAQEAAG2SAbQAAAAC'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=2c653f90d31b70132d30421f7befcd32; _csrf=521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH%22%3B%7D; _identity-frontend=5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%2252828bd4470015ecc9eac66630f47a9b%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '49128'
+    'REDIRECT_URL' => '/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533661663.01
+    'REQUEST_TIME' => 1533661663
+]
+2018-08-07 19:07:43 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/popper.min.js.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/popper.min.j...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 19:07:43 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => '2c653f90d31b70132d30421f7befcd32'
+    '_csrf' => '521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH\";}'
+    '_identity-frontend' => '5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"52828bd4470015ecc9eac66630f47a9b\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nR338AAQEAAGuWfvcAAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nR338AAQEAAGuWfvcAAAAA'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=2c653f90d31b70132d30421f7befcd32; _csrf=521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH%22%3B%7D; _identity-frontend=5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%2252828bd4470015ecc9eac66630f47a9b%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '49188'
+    'REDIRECT_URL' => '/js/popper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/popper.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533661663.178
+    'REQUEST_TIME' => 1533661663
+]
+2018-08-07 19:07:59 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap.min.css.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 19:07:59 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => '2c653f90d31b70132d30421f7befcd32'
+    '_csrf' => '521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH\";}'
+    '_identity-frontend' => '5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"52828bd4470015ecc9eac66630f47a9b\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nR738AAQEAAG5GYqQAAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nR738AAQEAAG5GYqQAAAAI'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=2c653f90d31b70132d30421f7befcd32; _csrf=521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH%22%3B%7D; _identity-frontend=5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%2252828bd4470015ecc9eac66630f47a9b%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '49398'
+    'REDIRECT_URL' => '/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533661679.439
+    'REQUEST_TIME' => 1533661679
+]
+2018-08-07 19:07:59 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/popper.min.js.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/popper.min.j...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 19:07:59 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => '2c653f90d31b70132d30421f7befcd32'
+    '_csrf' => '521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH\";}'
+    '_identity-frontend' => '5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"52828bd4470015ecc9eac66630f47a9b\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nR738AAQEAAG5GYqUAAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nR738AAQEAAG5GYqUAAAAI'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=2c653f90d31b70132d30421f7befcd32; _csrf=521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH%22%3B%7D; _identity-frontend=5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%2252828bd4470015ecc9eac66630f47a9b%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '49398'
+    'REDIRECT_URL' => '/js/popper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/popper.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533661679.611
+    'REQUEST_TIME' => 1533661679
+]
+2018-08-07 19:08:00 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][error][yii\web\HttpException:404] yii\web\NotFoundHttpException in /home/rh/WebServer/invensio.local/common/modules/imageStorage/controllers/DefaultController.php:69
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/common/modules/imageStorage/controllers/DefaultController.php(35): common\modules\imageStorage\controllers\DefaultController->openImage('/home/rh/WebSer...')
+#1 [internal function]: common\modules\imageStorage\controllers\DefaultController->actionOpenImageCache('7052a1e5-8d00-4...')
+#2 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('open-image-cach...', Array)
+#5 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('image-storage/d...', Array)
+#6 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#7 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2018-08-07 19:08:00 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][info][application] $_GET = [
+    'path' => '7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/5a57a4fe-dc85-46bf-b765-e3825f710b1d_preview.jpg'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => '2c653f90d31b70132d30421f7befcd32'
+    '_csrf' => '521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH\";}'
+    '_identity-frontend' => '5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"52828bd4470015ecc9eac66630f47a9b\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nR8H8AAQEAAG5GYqcAAAAI'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nR8H8AAQEAAG5GYqcAAAAI'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://invensio.local/en/profile'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=2c653f90d31b70132d30421f7befcd32; _csrf=521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH%22%3B%7D; _identity-frontend=5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%2252828bd4470015ecc9eac66630f47a9b%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '49398'
+    'REDIRECT_URL' => '/cache/objects/7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/5a57a4fe-dc85-46bf-b765-e3825f710b1d_preview.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'HEAD'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cache/objects/7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/5a57a4fe-dc85-46bf-b765-e3825f710b1d_preview.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533661680.307
+    'REQUEST_TIME' => 1533661680
+]
+2018-08-07 19:52:35 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap.min.css.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 19:52:35 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => '2c653f90d31b70132d30421f7befcd32'
+    '_csrf' => '521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH\";}'
+    '_identity-frontend' => '5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"52828bd4470015ecc9eac66630f47a9b\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2ncY38AAQEAAHBygvYAAAAH'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2ncY38AAQEAAHBygvYAAAAH'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=2c653f90d31b70132d30421f7befcd32; _csrf=521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH%22%3B%7D; _identity-frontend=5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%2252828bd4470015ecc9eac66630f47a9b%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '43132'
+    'REDIRECT_URL' => '/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533664355.131
+    'REQUEST_TIME' => 1533664355
+]
+2018-08-07 19:52:35 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/popper.min.js.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/popper.min.j...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 19:52:35 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => '2c653f90d31b70132d30421f7befcd32'
+    '_csrf' => '521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH\";}'
+    '_identity-frontend' => '5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"52828bd4470015ecc9eac66630f47a9b\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2ncY38AAQEAAHBygvcAAAAH'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2ncY38AAQEAAHBygvcAAAAH'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=2c653f90d31b70132d30421f7befcd32; _csrf=521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH%22%3B%7D; _identity-frontend=5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%2252828bd4470015ecc9eac66630f47a9b%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '43132'
+    'REDIRECT_URL' => '/js/popper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/popper.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533664355.317
+    'REQUEST_TIME' => 1533664355
+]
+2018-08-07 19:52:36 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][error][yii\web\HttpException:404] yii\web\NotFoundHttpException in /home/rh/WebServer/invensio.local/common/modules/imageStorage/controllers/DefaultController.php:69
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/common/modules/imageStorage/controllers/DefaultController.php(35): common\modules\imageStorage\controllers\DefaultController->openImage('/home/rh/WebSer...')
+#1 [internal function]: common\modules\imageStorage\controllers\DefaultController->actionOpenImageCache('7052a1e5-8d00-4...')
+#2 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('open-image-cach...', Array)
+#5 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('image-storage/d...', Array)
+#6 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#7 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2018-08-07 19:52:36 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][info][application] $_GET = [
+    'path' => '7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/5a57a4fe-dc85-46bf-b765-e3825f710b1d_preview.jpg'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => '2c653f90d31b70132d30421f7befcd32'
+    '_csrf' => '521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH\";}'
+    '_identity-frontend' => '5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"52828bd4470015ecc9eac66630f47a9b\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2ncZH8AAQEAAHBygvkAAAAH'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2ncZH8AAQEAAHBygvkAAAAH'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://invensio.local/en/profile'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=2c653f90d31b70132d30421f7befcd32; _csrf=521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH%22%3B%7D; _identity-frontend=5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%2252828bd4470015ecc9eac66630f47a9b%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '43132'
+    'REDIRECT_URL' => '/cache/objects/7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/5a57a4fe-dc85-46bf-b765-e3825f710b1d_preview.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'HEAD'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cache/objects/7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/5a57a4fe-dc85-46bf-b765-e3825f710b1d_preview.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533664356.046
+    'REQUEST_TIME' => 1533664356
+]
+2018-08-07 19:53:25 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap.min.css.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('css/bootstrap.m...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 19:53:25 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => '2c653f90d31b70132d30421f7befcd32'
+    '_csrf' => '521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH\";}'
+    '_identity-frontend' => '5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"52828bd4470015ecc9eac66630f47a9b\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nclX8AAQEAAB-F3P4AAAAF'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nclX8AAQEAAB-F3P4AAAAF'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=2c653f90d31b70132d30421f7befcd32; _csrf=521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH%22%3B%7D; _identity-frontend=5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%2252828bd4470015ecc9eac66630f47a9b%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '43634'
+    'REDIRECT_URL' => '/css/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533664405.295
+    'REQUEST_TIME' => 1533664405
+]
+2018-08-07 19:53:25 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "js/popper.min.js.map". in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/popper.min.j...', Array)
+#1 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2018-08-07 19:53:25 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => '2c653f90d31b70132d30421f7befcd32'
+    '_csrf' => '521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH\";}'
+    '_identity-frontend' => '5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"52828bd4470015ecc9eac66630f47a9b\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2nclX8AAQEAAB-F3P8AAAAF'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2nclX8AAQEAAB-F3P8AAAAF'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=2c653f90d31b70132d30421f7befcd32; _csrf=521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH%22%3B%7D; _identity-frontend=5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%2252828bd4470015ecc9eac66630f47a9b%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '43634'
+    'REDIRECT_URL' => '/js/popper.min.js.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/js/popper.min.js.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533664405.478
+    'REQUEST_TIME' => 1533664405
+]
+2018-08-07 19:53:26 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][error][yii\web\HttpException:404] yii\web\NotFoundHttpException in /home/rh/WebServer/invensio.local/common/modules/imageStorage/controllers/DefaultController.php:69
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/common/modules/imageStorage/controllers/DefaultController.php(35): common\modules\imageStorage\controllers\DefaultController->openImage('/home/rh/WebSer...')
+#1 [internal function]: common\modules\imageStorage\controllers\DefaultController->actionOpenImageCache('7052a1e5-8d00-4...')
+#2 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('open-image-cach...', Array)
+#5 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('image-storage/d...', Array)
+#6 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#7 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2018-08-07 19:53:26 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][info][application] $_GET = [
+    'path' => '7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/5a57a4fe-dc85-46bf-b765-e3825f710b1d_preview.jpg'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => '2c653f90d31b70132d30421f7befcd32'
+    '_csrf' => '521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH\";}'
+    '_identity-frontend' => '5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"52828bd4470015ecc9eac66630f47a9b\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2ncln8AAQEAAB-F3QEAAAAF'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2ncln8AAQEAAB-F3QEAAAAF'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://invensio.local/en/profile'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=2c653f90d31b70132d30421f7befcd32; _csrf=521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH%22%3B%7D; _identity-frontend=5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%2252828bd4470015ecc9eac66630f47a9b%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '43634'
+    'REDIRECT_URL' => '/cache/objects/7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/5a57a4fe-dc85-46bf-b765-e3825f710b1d_preview.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'HEAD'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cache/objects/7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/5a57a4fe-dc85-46bf-b765-e3825f710b1d_preview.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533664406.135
+    'REQUEST_TIME' => 1533664406
+]
+2018-08-07 19:53:26 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][error][yii\web\HttpException:404] yii\web\NotFoundHttpException in /home/rh/WebServer/invensio.local/common/modules/imageStorage/controllers/DefaultController.php:69
+Stack trace:
+#0 /home/rh/WebServer/invensio.local/common/modules/imageStorage/controllers/DefaultController.php(35): common\modules\imageStorage\controllers\DefaultController->openImage('/home/rh/WebSer...')
+#1 [internal function]: common\modules\imageStorage\controllers\DefaultController->actionOpenImageCache('7052a1e5-8d00-4...')
+#2 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('open-image-cach...', Array)
+#5 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('image-storage/d...', Array)
+#6 /home/rh/WebServer/invensio.local/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#7 /home/rh/WebServer/invensio.local/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2018-08-07 19:53:26 [127.0.0.1][95ee0178-cc71-4776-94c2-96e8e3f4b757][2c653f90d31b70132d30421f7befcd32][info][application] $_GET = [
+    'path' => '7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/5a57a4fe-dc85-46bf-b765-e3825f710b1d_preview.jpg'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'language' => 'dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    'advanced-frontend' => '2c653f90d31b70132d30421f7befcd32'
+    '_csrf' => '521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH\";}'
+    '_identity-frontend' => '5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:81:\"[\"95ee0178-cc71-4776-94c2-96e8e3f4b757\",\"52828bd4470015ecc9eac66630f47a9b\",36000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '95ee0178-cc71-4776-94c2-96e8e3f4b757'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'W2ncln8AAQEAAB-F3QMAAAAF'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'W2ncln8AAQEAAB-F3QMAAAAF'
+    'HTTP_HOST' => 'invensio.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://invensio.local/en/profile'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'language=dfe630ca3b896645b2f1dca3b9260adc45fc0a49e4515e0c8f4b23f6c0b2724ca%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; advanced-frontend=2c653f90d31b70132d30421f7befcd32; _csrf=521a3e4b576efe66a151977c710f12e8ce12ac192155cf8ea518f861d7a243d6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TR9ZgErOMJQMkjp1ajJ1A3dB0sUAvsPH%22%3B%7D; _identity-frontend=5ddf9270b9e8fae3682ba98dc6f87d588f66f49f878017223a28805bfdcdb974a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A81%3A%22%5B%2295ee0178-cc71-4776-94c2-96e8e3f4b757%22%2C%2252828bd4470015ecc9eac66630f47a9b%22%2C36000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.26 (Unix) OpenSSL/1.0.2l PHP/7.1.7 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'invensio.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/rh/WebServer/invensio.local/frontend/web/'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/home/rh/WebServer/invensio.local/frontend/web/index.php'
+    'REMOTE_PORT' => '43634'
+    'REDIRECT_URL' => '/cache/objects/7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/5a57a4fe-dc85-46bf-b765-e3825f710b1d_preview.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cache/objects/7052a1e5-8d00-43fd-8f57-f2e4de0c8b24/img/5a57a4fe-dc85-46bf-b765-e3825f710b1d_preview.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1533664406.442
+    'REQUEST_TIME' => 1533664406
+]

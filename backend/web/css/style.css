@@ -1,0 +1,1487 @@
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto !Important;
+}
+
+@font-face {
+	font-family: 'Roboto-Black';
+	src: url('../fonts/Roboto-Black.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-BlackItalic';
+	src: url('../fonts/Roboto-BlackItalic.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url('../fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-BoldItalic';
+	src: url('../fonts/Roboto-BoldItalic.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-Italic';
+	src: url('../fonts/Roboto-Italic.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-Light';
+	src: url('../fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-LightItalic';
+	src: url('../fonts/Roboto-LightItalic.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url('../fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-MediumItalic';
+	src: url('../fonts/Roboto-MediumItalic.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-Thin';
+	src: url('../fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-ThinItalic';
+	src: url('../fonts/Roboto-ThinItalic.ttf');
+}
+
+@font-face {
+    font-family: 'icon broom';
+    src: url('../fonts/icon-broom.eot');
+    src: url('../fonts/icon-broom.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/icon-broom.woff') format('woff'),
+         url('../fonts/icon-broom.ttf') format('truetype'),
+         url('../fonts/icon-broom.svg#icon-broom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class*='icon-']:before{
+	display: inline-block;
+   font-family: 'icon broom';
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale
+}
+.icon-broom:before{content:'\0042';}
+
+button {margin: 5px 0;}
+
+.modal-choice .row {cursor: pointer; margin-top: 10px; margin-bottom: 10px; border-bottom: 1px solid #ccc; padding-bottom: 10px;}
+
+.row.with-border {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.row.with-border:last-child {
+    border-bottom: none;
+}
+
+.module-field-box h5 {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 5px 0;
+	width: 80%;
+	color: #000;
+}
+
+.module-field-box button.btn-link h5 {width: 100%;}
+
+.title ~ .company_name {color: #9A9A9A}
+
+.btn-title {
+    color: #1DC7EA !Important;
+}
+
+.module-field-box p.classname,.module-field-box p.company_name {
+	font-size: 14px;
+	opacity: 1;
+}
+
+.module-field-box p.classname span,.module-field-box p.company_name span,.company_name span {
+    font-size: 14px;
+    color: #1f38ef;
+    font-style: italic;
+}
+
+.module-field-box p {
+    font-size: 13px;
+    color: #2d2d2d;
+    opacity: .8;
+}
+
+.module-field-box {
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    padding: 5px 0px;
+	position: relative;
+}
+
+.btn-icon {
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 11px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 4px;
+	transition: 0.3s;
+	border: none;
+	vertical-align: middle;
+}
+
+.btn-icon~a.btn {
+	margin: 0 5px;
+	margin-bottom: 0;
+}
+
+.black-text {color: #2d2d2d !Important;}
+
+.btn-icon.btn-edit {
+    background: #366fbc;
+    color: #fff;
+}
+
+.btn-icon.btn-copy {
+    background: #58b1bf;
+    color: #fff;
+}
+
+.btn-icon.btn-delete {
+    background: #e44737;
+    color: #fff;
+}
+
+.btn-icon.btn-minus {
+    background: #e44737;
+    color: #fff;
+	line-height: 20px;
+}
+
+.btn-icon.btn-copy:hover {
+    background: #4d9aa7;
+    color: #fff;
+}
+
+.btn-icon.btn-edit:hover {
+	background: #2a61ab;
+    color: #fff;
+}
+
+.btn-icon.btn-delete:hover {
+    background: #cc3a2b;
+    color: #fff;
+}
+
+.abs-block {
+    text-align: right;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    background: #ccc;
+    padding: 3px 5px;
+	opacity: 0;
+	transition: 0.4s;
+}
+
+.module-field-box:hover .abs-block {
+	opacity: 1;
+}
+
+.nav-item .nav {
+	margin-top: 0;
+	padding-left: 25px;
+}
+
+.sidebar .nav-item .nav i {
+    font-size: 24px;
+    float: left;
+    margin-right: 10px;
+    line-height: 22px;
+    width: 30px;
+    text-align: center;
+}
+
+.btn {margin-bottom: 20px;}
+
+.btn-big {font-size: 1.6rem;}
+
+.btn-big i {
+    font-size: 2.4rem;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.btn.btn-icon {
+    padding: 5px 8px 4px;
+}
+
+.btn {
+    border-width: 2px;
+    background-color: transparent;
+    font-weight: 400;
+    padding: 8px 16px;
+    border: 1px solid #888888;
+    color: #FFFFFF;
+    background-color: #888888;
+    cursor: pointer;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    line-height: 1.42857143;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.btn.dropdown-toggle {
+    background-color: #797979;
+    color: #FFFFFF;
+    border-color: #797979;
+}
+
+.btn-primary,.btn-add {
+    border: 1px solid #447DF7;
+    color: #FFFFFF;
+    background-color: #447DF7;
+    cursor: pointer;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.btn-primary.dropdown-toggle,
+.btn-add:hover, .btn-add:focus, .btn-add:active, .btn-add.active, .open>.btn-add.dropdown-toggle {
+    background-color: #2c6cf6;
+    color: #FFFFFF;
+    border-color: #2c6cf6;
+}
+
+.btn-default,.btn-default.btn-minus {
+	color: #fff;
+	background: #8e8e8e;
+}
+
+.btn-info {
+    border: 1px solid #23CCEF;
+    color: #FFFFFF;
+    background-color: #23CCEF;
+    cursor: pointer;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open>.btn-info.dropdown-toggle {
+    background-color: #11bfe3;
+    color: #FFFFFF;
+    border-color: #11bfe3;
+}
+
+.btn-success {
+    border: 1px solid #87CB16;
+    color: #FFFFFF;
+    background-color: #87CB16;
+    cursor: pointer;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.btn-success.dropdown-toggle {
+    background-color: #78b414;
+    color: #FFFFFF;
+    border-color: #78b414;
+}
+
+.btn-warning {
+    border: 1px solid #FFA534;
+    color: #FFFFFF;
+    background-color: #FFA534;
+    cursor: pointer;
+}
+
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open>.btn-warning.dropdown-toggle {
+    background-color: #ff9510;
+    color: #FFFFFF;
+    border-color: #ff9510;
+}
+
+.btn-danger,.btn-trash {
+    border: 1px solid #FB404B;
+    color: #FFFFFF;
+    background-color: #FB404B;
+    cursor: pointer;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open>.btn-danger.dropdown-toggle,
+.btn-trash:hover, .btn-trash:focus, .btn-trash:active, .btn-trash.active, .open>.btn-trash.dropdown-toggle {
+    background-color: #fa1825;
+    color: #FFFFFF;
+    border-color: #fa1825;
+}
+
+.module-field-box>a {
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+    margin: 5px 0;
+    width: 80%;
+}
+
+.modal-body label {
+    display: block;
+    margin-top: 10px;
+}
+
+.modal-body .btn {margin-top: 10px}
+
+.modal-body .btn [class^="pe-7s-"],.modal-body .btn [class*=" pe-7s-"] {
+    font-size: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+    line-height: 20px;
+	margin-top: -4px;
+}
+
+textarea {
+	display: block;
+	width: 100%;
+	resize: none;
+	min-height: 90px;
+}
+
+form.center {
+    text-align: center;
+}
+
+h5.alert-text {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+label.inline {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 10px;
+	margin-right: 10px;
+    vertical-align: middle;
+}
+
+h5.sub-title {
+    margin: 5px 0px 5px;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+select {
+	margin-bottom: 10px;
+}
+
+.btn-link, .btn-link.active, .btn-link:active, .btn-link[disabled], fieldset[disabled] .btn-link {
+    background-color: transparent !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	border-color: transparent !important;
+	text-decoration: none !Important;
+}
+
+.btn-block {width: 100% !Important;}
+
+.dark-blue-text {
+    color: #2e5daf;
+    text-align: left;
+}
+
+.dark-blue-text:hover,
+.dark-blue-text:active,
+.dark-blue-text:focus {
+	color: #0a2c67;
+}
+
+.btn-whis-angle:before,.btn-whis-angle:after {
+	content:'';
+	clear: both;
+}
+
+.btn-whis-angle .fa.fa-angle-right {
+    float: right;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.btn.btn-list {
+    padding: 0;
+}
+
+.box-whis-scroll {
+    overflow: hidden;
+    height: 300px;
+	position: relative;
+}
+
+.box-whis-scroll.full-height {
+    height: 570px;
+}
+
+.search-and-filter-row {
+    margin-bottom: 15px;
+}
+
+.inline-row {
+    display: inline-block;
+    vertical-align: middle;
+	width: calc(100% - 50px);
+}
+
+.arrow-box .btn-arrow {
+    font-size: 30px;
+    padding: 0;
+    line-height: 22px;
+    margin: 5px 0;
+    display: block;
+}
+
+.inline-row.arrow-box {
+    width: 40px;
+}
+
+.inline-row .inline-form label {
+	margin-right: 5px;
+}
+
+.btn-link.btn-no-pd {
+    padding: 0;
+    text-align: left;
+    white-space: normal;
+}
+
+.module-field-box.full-width-h5 a:nth-child(even) {
+    background: #eaeaea;
+}
+
+.module-field-box.full-width-h5 h5,.module-field-box.full-width-h5 a {
+    width: 100%;
+	display: block;
+}
+
+.current-data h4 {
+	margin: 10px 0 20px;
+	text-decoration: underline;
+	font-weight: 400;
+}
+
+.module-field-box.whis-even-bg h5 {
+    font-weight: normal;
+    padding: 4px 0;
+    margin: 2px 0;
+    text-decoration: none;
+}
+
+.module-field-box.whis-even-bg h5:nth-child(even) {
+	background: #eaeaea;
+	width: 100%;
+}
+
+.btn-mini {
+    padding: 3px 5px 1px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+span.badge.badge-access {
+    background: #4ad43a;
+}
+
+span.badge.badge-denied {
+    background: #d62a2a;
+}
+
+form>.form-control,form label>.form-control,form .form-control {
+	margin: 3px 0 5px;
+}
+
+button.btn.btn-link.btn-no-pd.module-field-box {
+    border-bottom: 1px solid #e2e2e2 !important;
+}
+
+.tree li a, .tree li button {
+	display: inline-block;
+	vertical-align:middle;
+}
+
+.tree li button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.tree .dropdown-menu label {
+    display: block;
+    padding: 0 10px;
+}
+
+.tree { font-size:15px; }
+.tree,.tree ul,.tree li { list-style:none; margin:0; padding:0; zoom: 1; }
+.tree li { color:#555; padding:.1em 0 .1em 27px; display:block; text-decoration:none; border:1px dashed #fff; background:url(../img/icon-file.gif) 5px 3px no-repeat; }
+.tree li.tree-parent { background:url(../img/icon-folder-open.gif) 5px 3px no-repeat; }
+
+.tree li input[type="radio"] {
+	margin-left: 3px;
+}
+
+.form-block label {
+	display: block;
+}
+
+.form-block label input.form-control {
+	margin-bottom: 15px
+}
+
+.btn-icon-whis-words {
+    width: auto !Important;
+    font-size: 14px;
+}
+
+.inline-btns button, .inline-btns a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.module-field-box .inline-btns a {
+    width: calc(100% - 70px);
+    display: inline-block;
+    background: none !important;
+}
+
+.badge.badge-primary {background: #344fc7;}
+
+.inline-btns.single-btn a {
+    margin-left: 39px;
+    margin-top: 5px;
+}
+
+.label-block label {display: block; margin-bottom: 10px}
+
+.post-form-tip {
+    margin-bottom: 0;
+    opacity: .65;
+    margin-top: 20px;
+    display: block;
+	font-size: 13px;
+}
+
+.table-fixed-last-td tr th:last-child, .table-fixed-last-td tr td:last-child {
+    width: 130px;
+}
+
+input[type=checkbox], input[type=radio] {
+    width: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    height: auto;
+    margin-right: 3px;
+}
+
+input[type=file] {
+	border-radius: 0px;
+}
+
+label.inline-label {
+    margin: 0 5px;
+    padding: 0 3px;
+}
+
+.img-prev {
+	width: 300px;
+}
+
+.box-whis-scroll .inline-btns {padding: 0 3px;}
+
+.box-whis-scroll .inline-btns:nth-child(even) {
+	background: #f1f1f1;
+}
+
+.title.mini-title {
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 5px;
+}
+
+.bordered-box {
+    border: 1px solid #ebebeb;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.table tr td.no-white-space,
+.table tr th.no-white-space {
+	white-space: nowrap;
+}
+
+.chat-block {
+    position: relative;
+}
+
+.chat-row:nth-child(even) {
+	background: #f1f1f1;
+}
+
+.chat-row {
+    padding: 5px 10px;
+}
+
+.chat-row h5 {
+    margin: 5px 0 10px;
+    font-weight: bold;
+}
+
+.chat-row h5 span {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: 300;
+    font-size: 12px;
+    float: right;
+    line-height: 17px;
+}
+
+.chat-row p {
+    opacity: .8;
+    font-size: 13px;
+}
+
+.form-group.fixed-row.chat-text-row input[type="text"] {
+    display: inline-block;
+    width: calc(100% - 90px);
+}
+
+.alert-row {
+    line-height: 35px;
+    font-size: 17px;
+}
+
+.btn-no-mr {
+    margin: 0 !important;
+}
+
+.btn-sm {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.search-result-title {
+    font-size: 16px;
+    line-height: 33px;
+}
+
+.modal-search-result-box>.row {
+    padding: 5px 0px;
+}
+
+.modal-search-result-box>.row:nth-child(even) {
+	background: #f1f1f1;
+}
+
+/*!
+ * Datetimepicker for Bootstrap 3
+ * ! version : 4.7.14
+ * https://github.com/Eonasdan/bootstrap-datetimepicker/
+ */
+
+.sr-only,
+.bootstrap-datetimepicker-widget .btn[data-action="incrementHours"]::after,
+.bootstrap-datetimepicker-widget .btn[data-action="incrementMinutes"]::after,
+.bootstrap-datetimepicker-widget .btn[data-action="decrementHours"]::after,
+.bootstrap-datetimepicker-widget .btn[data-action="decrementMinutes"]::after,
+.bootstrap-datetimepicker-widget .btn[data-action="showHours"]::after,
+.bootstrap-datetimepicker-widget .btn[data-action="showMinutes"]::after,
+.bootstrap-datetimepicker-widget .btn[data-action="togglePeriod"]::after,
+.bootstrap-datetimepicker-widget .btn[data-action="clear"]::after,
+.bootstrap-datetimepicker-widget .btn[data-action="today"]::after,
+.bootstrap-datetimepicker-widget .picker-switch::after,
+.bootstrap-datetimepicker-widget table th.prev::after,
+.bootstrap-datetimepicker-widget table th.next::after {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.bootstrap-datetimepicker-widget {
+    list-style: none;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+    padding: 4px;
+    width: 19em;
+}
+
+@media (min-width: 768px) {
+    .bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs {
+        width: 38em;
+    }
+}
+
+@media (min-width: 992px) {
+    .bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs {
+        width: 38em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs {
+        width: 38em;
+    }
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.bottom:before {
+    border-bottom: 11px solid rgba(0, 0, 0, 0.2);
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 12px;
+    top: -11px;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.bottom:after {
+    border-bottom: 11px solid #FFFFFF;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 12px;
+    top: -10px;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.top {
+    margin-top: auto;
+    margin-bottom: -20px;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.top.open {
+    margin-top: auto;
+    margin-bottom: 5px;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.top:before {
+    border-top: 11px solid rgba(0, 0, 0, 0.2);
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: none;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 12px;
+    bottom: -11px;
+    top: auto;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.top:after {
+    border-top: 11px solid #FFFFFF;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: none;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 12px;
+    bottom: -10px;
+    top: auto;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.pull-right:before {
+    left: auto;
+    right: 6px;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.pull-right:after {
+    left: auto;
+    right: 7px;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.open {
+    visibility: visible !important;
+    opacity: 1 !important;
+    top: 120px !important;
+    font-size: 14px !important;
+}
+
+.bootstrap-datetimepicker-widget .list-unstyled {
+    margin: 0;
+}
+
+.bootstrap-datetimepicker-widget a[data-action] {
+    padding: 6px 0;
+    border-width: 0;
+}
+
+.bootstrap-datetimepicker-widget a[data-action]:active {
+    box-shadow: none;
+}
+
+.bootstrap-datetimepicker-widget .timepicker-hour,
+.bootstrap-datetimepicker-widget .timepicker-minute,
+.bootstrap-datetimepicker-widget .timepicker-second {
+    width: 56px;
+    height: 56px;
+    font-weight: 300;
+    font-size: 1.375rem;
+    margin: 3px;
+    border-radius: 50%;
+}
+
+.bootstrap-datetimepicker-widget button[data-action] {
+    padding: 6px;
+}
+
+.bootstrap-datetimepicker-widget .btn[data-action="incrementHours"]::after {
+    content: "Increment Hours";
+}
+
+.bootstrap-datetimepicker-widget .btn[data-action="incrementMinutes"]::after {
+    content: "Increment Minutes";
+}
+
+.bootstrap-datetimepicker-widget .btn[data-action="decrementHours"]::after {
+    content: "Decrement Hours";
+}
+
+.bootstrap-datetimepicker-widget .btn[data-action="decrementMinutes"]::after {
+    content: "Decrement Minutes";
+}
+
+.bootstrap-datetimepicker-widget .btn[data-action="showHours"]::after {
+    content: "Show Hours";
+}
+
+.bootstrap-datetimepicker-widget .btn[data-action="showMinutes"]::after {
+    content: "Show Minutes";
+}
+
+.bootstrap-datetimepicker-widget .btn[data-action="togglePeriod"]::after {
+    content: "Toggle AM/PM";
+}
+
+.bootstrap-datetimepicker-widget .btn[data-action="clear"]::after {
+    content: "Clear the picker";
+}
+
+.bootstrap-datetimepicker-widget .btn[data-action="today"]::after {
+    content: "Set the date to today";
+}
+
+.bootstrap-datetimepicker-widget .picker-switch {
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.bootstrap-datetimepicker-widget .picker-switch::after {
+    content: "Toggle Date and Time Screens";
+}
+
+.bootstrap-datetimepicker-widget .picker-switch td {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: auto;
+    line-height: inherit;
+}
+
+.bootstrap-datetimepicker-widget .picker-switch td span {
+    line-height: 2.5;
+    height: 2.5em;
+    width: 100%;
+    border-radius: 4px;
+    margin: 2px 0px !important;
+}
+
+.bootstrap-datetimepicker-widget .picker-switch td a,
+.bootstrap-datetimepicker-widget .picker-switch td a:hover {
+    color: #23CCEF;
+}
+
+.bootstrap-datetimepicker-widget table {
+    width: 100%;
+    margin: 0;
+}
+
+.bootstrap-datetimepicker-widget table td>div,
+.bootstrap-datetimepicker-widget table th>div {
+    text-align: center;
+}
+
+.bootstrap-datetimepicker-widget table th {
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+}
+
+.bootstrap-datetimepicker-widget table th.picker-switch {
+    width: 145px;
+}
+
+.bootstrap-datetimepicker-widget table th.disabled,
+.bootstrap-datetimepicker-widget table th.disabled:hover {
+    background: none;
+    color: #DDDDDD;
+    cursor: not-allowed;
+}
+
+.bootstrap-datetimepicker-widget table th.prev span,
+.bootstrap-datetimepicker-widget table th.next span {
+    border-radius: 4px;
+    height: 27px;
+    width: 27px;
+    line-height: 28px;
+    font-size: 12px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.bootstrap-datetimepicker-widget table th.prev::after {
+    content: "Previous Month";
+}
+
+.bootstrap-datetimepicker-widget table th.next::after {
+    content: "Next Month";
+}
+
+.bootstrap-datetimepicker-widget table th.dow {
+    text-align: center;
+    border-bottom: 1px solid #E3E3E3;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #9A9A9A;
+    font-weight: 400;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.bootstrap-datetimepicker-widget table thead tr:first-child th {
+    cursor: pointer;
+}
+
+.bootstrap-datetimepicker-widget table thead tr:first-child th:hover span,
+.bootstrap-datetimepicker-widget table thead tr:first-child th.picker-switch:hover {
+    background: #E3E3E3;
+}
+
+.bootstrap-datetimepicker-widget table td>div {
+    border-radius: 4px;
+    height: 54px;
+    line-height: 54px;
+    width: 54px;
+    text-align: center;
+}
+
+.bootstrap-datetimepicker-widget table td.cw>div {
+    font-size: .8em;
+    height: 20px;
+    line-height: 20px;
+    color: #DDDDDD;
+}
+
+.bootstrap-datetimepicker-widget table td.day>div {
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 50%;
+    margin: 0 auto;
+    z-index: -1;
+    position: relative;
+}
+
+.bootstrap-datetimepicker-widget table td.minute>div,
+.bootstrap-datetimepicker-widget table td.hour>div {
+    border-radius: 50%;
+}
+
+.bootstrap-datetimepicker-widget table td.day:hover>div,
+.bootstrap-datetimepicker-widget table td.hour:hover>div,
+.bootstrap-datetimepicker-widget table td.minute:hover>div,
+.bootstrap-datetimepicker-widget table td.second:hover>div {
+    background: #E3E3E3;
+    cursor: pointer;
+}
+
+.bootstrap-datetimepicker-widget table td.old>div,
+.bootstrap-datetimepicker-widget table td.new>div {
+    color: #DDDDDD;
+}
+
+.bootstrap-datetimepicker-widget table td.today>div {
+    position: relative;
+}
+
+.bootstrap-datetimepicker-widget table td.today>div:before {
+    content: '';
+    display: inline-block;
+    border: 0 0 7px 7px solid transparent;
+    border-bottom-color: #23CCEF;
+    border-top-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
+
+.bootstrap-datetimepicker-widget table td.active>div,
+.bootstrap-datetimepicker-widget table td.active:hover>div {
+    background-color: #23CCEF;
+    color: #FFFFFF;
+}
+
+.bootstrap-datetimepicker-widget table td.active.today:before>div {
+    border-bottom-color: #fff;
+}
+
+.bootstrap-datetimepicker-widget table td.disabled>div,
+.bootstrap-datetimepicker-widget table td.disabled:hover>div {
+    background: none;
+    color: #DDDDDD;
+    cursor: not-allowed;
+}
+
+.bootstrap-datetimepicker-widget table td span {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    margin: 3px 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.bootstrap-datetimepicker-widget table td span:hover {
+    background: #E3E3E3;
+}
+
+.bootstrap-datetimepicker-widget table td span.active {
+    background-color: #23CCEF;
+    color: #FFFFFF;
+}
+
+.bootstrap-datetimepicker-widget table td span.old {
+    color: #DDDDDD;
+}
+
+.bootstrap-datetimepicker-widget table td span.disabled,
+.bootstrap-datetimepicker-widget table td span.disabled:hover {
+    background: none;
+    color: #DDDDDD;
+    cursor: not-allowed;
+}
+
+.bootstrap-datetimepicker-widget .timepicker-picker span,
+.bootstrap-datetimepicker-widget .timepicker-hours span,
+.bootstrap-datetimepicker-widget .timepicker-minutes span {
+    border-radius: 50% !important;
+}
+
+.bootstrap-datetimepicker-widget .timepicker-picker .table-condensed td a,
+.bootstrap-datetimepicker-widget .timepicker-hours .table-condensed td a,
+.bootstrap-datetimepicker-widget .timepicker-minutes .table-condensed td a {
+    color: #888888;
+    background-color: transparent;
+}
+
+.bootstrap-datetimepicker-widget.usetwentyfour td.hour {
+    height: 27px;
+    line-height: 27px;
+}
+
+.input-group.date .input-group-addon {
+    cursor: pointer;
+}
+
+.table-condensed>tbody>tr>td,
+.table-condensed>tbody>tr>th,
+.table-condensed>tfoot>tr>td,
+.table-condensed>tfoot>tr>th,
+.table-condensed>thead>tr>td,
+.table-condensed>thead>tr>th {
+    padding: 1px;
+}
+
+.bootstrap-datetimepicker-widget {
+    opacity: 0;
+    -webkit-transform: translate3d(0px, -10px, 0px);
+    -moz-transform: translate3d(0, -10px, 0);
+    -o-transform: translate3d(0, -10px, 0);
+    -ms-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0px, -10px, 0px);
+}
+
+.bootstrap-datetimepicker-widget.top {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0, 0px, 0);
+    -o-transform: translate3d(0, 0px, 0);
+    -ms-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.bootstrap-datetimepicker-widget.open {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 5px, 0);
+    -moz-transform: translate3d(0, 5px, 0);
+    -o-transform: translate3d(0, 5px, 0);
+    -ms-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+    transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.top {
+    top: auto !important;
+}
+
+.bootstrap-datetimepicker-widget.open.top {
+    -webkit-transform: translate3d(0, -10px, 0);
+    -moz-transform: translate3d(0, -10px, 0);
+    -o-transform: translate3d(0, -10px, 0);
+    -ms-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+}
+
+.bootstrap-datetimepicker-widget.open.top:before {
+    border-top: 11px solid #DCD9D1;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 12px;
+    bottom: -12px;
+}
+
+.bootstrap-datetimepicker-widget.open.top:after {
+    border-top: 11px solid #FFFFFF;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 12px;
+    bottom: -11px;
+}
+
+form>.row>div>.btn {margin: 3px 0 !Important}
+
+.valign-middle label {
+    margin-bottom: 0;
+    line-height: 60px;
+}
+
+.btn-whis-angle {
+    overflow: hidden;
+}
+
+.btn {position: relative;}
+
+.btn-whis-angle:before, .btn-whis-angle:after {
+    content: '';
+    clear: both;
+    position: absolute;
+    height: 100%;
+    width: 18%;
+    right: 0;
+	
+	
+	background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+#table-registry .btn-whis-angle .fa.fa-angle-right {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+button.btn.btn-link.logout {
+	padding: 10px 15px;
+    margin: 9px 3px;
+    position: relative;
+}
+
+code {
+    padding: initial;
+    font-size: 100%;
+    color: inherit;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+code, kbd, pre, samp {
+    font-family: inherit;
+}
+
+.modal-backdrop.fade.in {
+    display: none !important;
+}
+
+.abs-hidden-text {
+    position: absolute;
+    color: transparent;
+    width: 0;
+    height: 0;
+	z-index: -999999999;
+}
+
+.field-name .inline-block {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.field-name .inline-block.relative {position: relative; z-index: 1; margin-left: 10px;}
+
+.field-name .inline-block.relative>div {z-index: 2;}
+
+.field-name .inline-block.relative>span {display: inline;}
+
+.abs-hidden-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 3;
+	background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.grey-text {
+    color: #8f8f8f;
+    font-size: 12px;
+}
+
+i.bordered-icon {
+    border: 1px solid #000;
+    padding: 2.4px 4px;
+    display: inline-block;
+    width: auto;
+    border-radius: 4px;
+    vertical-align: middle;
+	margin-right: 5px;
+}
+
+.btn-edit.btn-info {
+    background: #29aeed !important;
+    border-color: #29aeed !important;
+}
+
+.mr-l-5 {margin-left: 5px}
+
+a.btn-icon ~ button.btn-icon,
+button.btn-icon ~ a.btn-icon {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 1.5px;
+	margin-right: 1.5px;
+}
+
+.btn.btn-icon.btn-clipboard, .btn-icon {margin-top: 0;margin-bottom: 0;}
+
+.btn.btn-icon .fa {
+    margin: 0 0 0 -3px;
+}
+
+#table-objects-records table.table tr th {
+	padding: 12px 10px;
+}
+
+#table-objects-records th span {
+    margin: 10px 0 0;
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+}
+
+#table-objects-records th span:before,
+#table-objects-records th span:after {
+	content:'';
+	position: relative;
+	clear: both;
+}
+
+#table-objects-records th span button.btn {
+    font-size: 12px;
+    padding: 3px 3px 3px 6px;
+    width: auto;
+    line-height: 1;
+    vertical-align: middle;
+    text-align: center;
+	margin-left: 5px;
+}
+
+.loader-spinner {
+	width: 75px;
+	height: 75px;
+}
+
+button.btn-icon.mr-left {
+    margin-left: 10px;
+}
+
+.btn.btn-link.btn-number {
+    color: #2e89f9;
+    margin: -1px 4px 0;
+    vertical-align: middle;
+    padding: 0 !important;
+    text-decoration: underline !important;
+}
+
+.table tbody tr:nth-child(2n+1) td,
+.table-striped tbody tr:nth-child(2n+1) td {
+	background-color: #efefef;
+	background-clip: padding-box;
+}
+
+.table-striped tbody tr:nth-child(2n+1) {background: transparent !Important;}
+
+.small-table tr td p {
+    font-size: 11px;
+	margin-bottom: 0;
+	white-space: nowrap;
+}
+
+.small-table tr td {
+	padding: 0 8px !important;
+}
+
+.small-table tr td a.btn.btn-edit.btn-icon {
+    font-size: 10px;
+    padding: 3px 5px 3px !important;
+    width: 22px;
+    display: block;
+    margin: 2px auto;
+}
+
+.fixed-card .table-responsive {overflow-y: auto; height: 68vh;}
+
+.no-pd-t {
+   padding-top: 0; 
+}
+
+.fixed-card .btn-sm {
+    font-size: 15px;
+    padding: 2px 9px;
+}
+
+#newrecordbtn {
+    padding: 0px 5px;
+    font-size: 12px;
+    vertical-align: middle;
+    margin: 0 10px 5px;
+}
+
+.no-mr-t {margin-top: 0 !Important}
+
+#table-adds .btn-icon.btn-add {
+    display: inline-block;
+    text-align: center;
+    margin-right: 2px;
+    padding: 6px 5px 2px;
+    line-height: 1;
+    width: calc(47% - 4px);
+}
+
+#table-records tr td p {
+    font-size: 12px;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9; 
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+
+.ui-menu.ui-autocomplete {
+    position: absolute !important;
+    top: 40px !important;
+    width: calc(100% - 30px) !important;
+    background: #fff;
+    z-index: 1;
+    border: 1px solid #ccc;
+    left: 15px !important;
+    border-top: none;
+    list-style-type: none;
+    padding: 8px 0;
+}
+
+.ui-menu.ui-autocomplete li div {
+    cursor: pointer;
+    padding: 3px 15px;
+}
+
+.ui-menu.ui-autocomplete li div:hover {
+    background: #2b76ff;
+    color: #fff;
+    font-size: 16px;
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    width: 100% !important;
+    vertical-align: middle;
+}
+
+.table-responsive.over-y-scroll {
+    overflow-y: scroll;
+    height: 208px;
+}
+
+button.btn.btn-icon.btn-arrow i {
+    font-size: 13px;
+    font-weight: bold;
+}
